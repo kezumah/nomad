@@ -1,6 +1,9 @@
 # nomad
 A website to connect project owners with freelancers.
 
+
+//Would've been nice to have a description of stating who worked on what part of the project. 
+
 ## Objective
 This project is intended to focus on backend development using Node.js and Express. The database for the website was built using a non-relational database called Mongo DB. The database was hosted using MongoDB Atlas as our database server.
 
