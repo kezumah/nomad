@@ -97,6 +97,8 @@ if (createFreelancerForm !== null) {
       data[key] = val;
     };
 
+    // This sends the response, but it only returns the JSON saying "ok". I think you were trying to redirect the use bacl the main page?
+    // I think you needed to document.location.href = "location of page you're directing too".
     const fetchResponse = await fetch("/freelancers/create", {
       method: "POST",
       headers: {
